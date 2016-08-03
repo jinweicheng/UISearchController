@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  UISearchController
+//
+//  Created by 程金伟 on 16/6/15.
+//  Copyright © 2016年 juzhi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kwidth [UIScreen mainScreen].bounds.size.width
+#define kheight [UIScreen mainScreen].bounds.size.height
+
+//collectionView的内边距
+#define CVInsets 5
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
